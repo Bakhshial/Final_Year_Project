@@ -55,6 +55,9 @@ Install the dependencies listed in requirements.txt.
 
     pip install -r requirements.txt and setup.py file
     
+#### data_manager.py file
+ The data_manager.py file defines a DataManager class responsible for extracting, cleaning, and processing text from various file formats (PDF, DOCX, TXT, etc.), including web scraping. It manages text embeddings using Hugging Face models, stores the embeddings in a Chroma vector store, and provides functionality for querying and retrieval. The class also supports chunking large text into manageable sizes for embedding and storing.
+    
 Set up your API keys for GROQ and Hugging Face by exporting them as environment variables:
 
     export GROQ_API_KEY=your_api_key  
