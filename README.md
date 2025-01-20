@@ -36,10 +36,13 @@ This project is an **AI-powered autonomous agent** designed to provide accurate 
 ### How It Works
 **Data Ingestion:**
 Combines cybersecurity knowledge from curated documents and online sources.
+
 **Chunking and Embedding:**
 Processes large data into manageable chunks and embeds them for efficient retrieval.
+
 **RAG Mechanism:**
 Retrieves the most relevant information before generating responses, ensuring accurate and trustworthy outputs.
+
 **Fine-Tuned Responses:**
 Leverages the fine-tuned Llama 3.1 model to enhance language understanding and domain specificity.
 
