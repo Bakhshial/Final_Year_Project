@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="project_work",
+    version="1.0",
+    packages=find_packages(),
+    install_requires=[
+        "PyMuPDF",
+        "PyPDF2",
+        "pytesseract",
+        "Pillow",
+        "bs4",
+        "tika",
+        "unstructured",
+        "langchain",
+        "chromadb",
+        "pandas",
+        "requests",
+        "transformers",
+        "tokenizers",
+        "bitsandbytes",
+        "einops",
+        "xformers",
+        "langchain-community",
+        "langchain-core",
+        "langchain-huggingface",
+        "langchain-chroma",
+    ],
+)
